@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{A67AB2E6-41D1-5669-B10D-199F7F7A0FE5}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "XX",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "AdvancedSteamSessions",
+			"Enabled": false
+		},
+		{
+			"Name": "AdvancedSessions",
+			"Enabled": false
+		}
+	]
+}
