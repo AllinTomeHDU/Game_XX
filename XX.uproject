@@ -7,20 +7,19 @@
 		{
 			"Name": "XX",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	],
 	"Plugins": [
 		{
-			"Name": "AdvancedSteamSessions",
-			"Enabled": false
-		},
-		{
-			"Name": "AdvancedSessions",
-			"Enabled": false
-		},
-		{
 			"Name": "EnhancedInput",
+			"Enabled": true
+		},
+		{
+			"Name": "SessionsSystem",
 			"Enabled": true
 		}
 	]
